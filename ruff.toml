@@ -3,10 +3,10 @@ line-length = 120
 select = ["ALL"]
 ignore = [
 	"D100", "D212", "D200", "D104", "D101", "D205", "D401",
-	"RUF012", "RUF002", "RUF003",
+	"RUF012", "RUF002", "RUF003", "RUF001",
 	"ANN101", "ANN201", "ANN205",
 	"PTH123", "PTH207",
-	"S101",
+	"S101", "S321", "S603",
 ]
 [lint.flake8-bugbear]
 # Allow default arguments like, e.g., `data: List[str] = fastapi.Query(None)`.
